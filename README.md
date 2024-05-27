@@ -1,14 +1,18 @@
 # spotipy_analise
-Código para analisar atributos musicais, como valência, energia, "dançabilidade", tempo, etc (leia mais abaixo), utilizando as bibliotecas *spotipy* para extrair dados da API do Spotify.
+Código para analisar atributos musicais, como valência, energia, "dançabilidade", tempo, etc (leia mais abaixo) de discos. Para a tarefa, utiizamos a bibliotecas *spotipy* para extrair dados da API do Spotify.
 
 **Como começar?**
-Acessando a API: Client ID, Cliente Secret e o Spotipy
-Para ter acesso a API, é necessário que você se cadastre no site do Spotify que é dedicado a desenvolvedores (é possível utilizar tanto uma conta Premium quanto gratuita).
-Após o cadastro e login, é necessário criar um app para obter um Client ID e Client Secret, que são necessários para conseguir o token de acesso.Não se assuste com palavras desconhecidas, caso nunca tenha usado uma API, que isto é relativamente fácil de fazer.
-Para criar um app, basta ir na sua dashboard e clicar no “Create app”, inserindo os dados pedidos.
-No “Redirect URI” apenas insira http://localhost:3000 conforme indica a documentação oficial.
-Com seu app criado podemos conseguir o token de acesso. Como citado, precisaremos do Client ID e o Client Secret para extrair os dados. Essas duas chaves podem ser encontradas clicando botão “Settings” na página principal do app.
-Essa página fornece o Client ID e clicando nas letras miúdas também podemos ter acesso ao Client Secret:
+Acessando a API: _https://developer.spotify.com/documentation/web-api/tutorials/getting-started_ 
+Para acessar e utilizar os recursos da API, é necessário que você se cadastre no site acima. Após se cadastrar, é necessário criar um app para obter um _client ID_ e _client Secret_, que são necessários para gerar o token de acesso.
+Seguindo o tutorial, para criar um app, basta ir na sua dashboard e clicar em _Create app_ e inserir os dados solicitados.
+
+**Atenção: ** Na caixa _Redirect URI_, devemos inserir o endereço **"http://localhost:3000"**, conforme a documentação.
+
+Após seguir os passos listados acima, o app está pronto e podemos solicitar o token de acesso.
+Com seu app criado podemos conseguir o token de acesso. Como citado, precisaremos do Client ID e o Client Secret para extrair os dados. 
+
+*Características musicais*
+_Documentação > https://developer.spotify.com/documentation/web-api/reference/get-audio-features_
 
 **Bibliotecas**
 *Spotipy:* biblioteca do Python que utiliza a API do Spotify e extrai dados de músicas e usuários da plataforma de streaming. 
