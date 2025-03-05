@@ -1,4 +1,6 @@
 # spotipy_analise
+!!!! Função foi depreciada pelo Spotify !!!!
+
 Código para analisar atributos musicais, como valência, energia, "dançabilidade", tempo, etc (leia mais abaixo) de discos. Para a tarefa, utilizaremos a bibliotecas *spotipy* para extrair dados da API do Spotify.
 
 **Como começar?**
